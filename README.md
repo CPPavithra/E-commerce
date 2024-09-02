@@ -11,10 +11,8 @@ a.	Apache Tomcat v10.1
 b.	Installation directory - D:\Softwares\apache-tomcat-10.1.24
 10.	Add Server Runtime [Apache Tomcatv10.1] to Classpath
 11.	Add the dependencies in pom.xml file
-12.	Create the packages one by one. Instead of com.shashi.serv I used com.nka.serv (nka stands for Nikhil-Kshitij-Aditya)
+12.	Create the packages one by one. 
 13.	Create the class in each package
-14.	Copy the file content from old project to your project
-15.	Replace “Shashi” with “nka”
 
 Add the below in pom.xl (the exact location of index.jsp) – under <artifactId>maven-war-plugin</artifactId>
         <version>3.2.3</version>
